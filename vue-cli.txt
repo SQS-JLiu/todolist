@@ -1,0 +1,15 @@
+安装： vue-cli
+npm install --global vue-cli
+创建一个基于webpack的todolist项目
+vue init webpack todolist
+cd todolist
+npm run dev
+
+
+//目录介绍
+build  是项目的webpack的配置文件
+config 是针对开发环境和线上环境的配置文件
+node_modules 是项目的依赖
+src  是源代码目录
+static  静态资源目录
+.开头的一般不需要更改, 针对于banellrc编译
